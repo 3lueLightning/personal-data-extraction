@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "personal_data_extraction"
+name = "pii_extract"
 version = "0.1.0"
 description = "Solution to Kaggle competition https://www.kaggle.com/competitions/pii-detection-removal-from-educational-data/data"
 authors = [

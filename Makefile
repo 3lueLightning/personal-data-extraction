@@ -12,7 +12,7 @@ init_env: ## Install dependencies with poetry and activate env
 
 init_git: ## Initialize git repository
 	@echo "🚀 Initializing local git repository..."
-	git init -b main
+	git init -b master
 	git add .
 	git commit -m "🎉 Initial commit"
 	@echo "🚀 Local Git already set!"

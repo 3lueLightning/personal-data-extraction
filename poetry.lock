@@ -1094,14 +1094,14 @@ files = [
 [package.dependencies]
 ml-dtypes = ">=0.2.0"
 numpy = [
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
-    {version = ">=1.23.2", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
     {version = ">=1.22", markers = "python_version < \"3.11\""},
+    {version = ">=1.23.2", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 opt-einsum = "*"
 scipy = [
-    {version = ">=1.11.1", markers = "python_version >= \"3.12\""},
     {version = ">=1.9", markers = "python_version < \"3.12\""},
+    {version = ">=1.11.1", markers = "python_version >= \"3.12\""},
 ]
 
 [package.extras]
@@ -1151,8 +1151,8 @@ files = [
 ml-dtypes = ">=0.2.0"
 numpy = ">=1.22"
 scipy = [
-    {version = ">=1.11.1", markers = "python_version >= \"3.12\""},
     {version = ">=1.9", markers = "python_version < \"3.12\""},
+    {version = ">=1.11.1", markers = "python_version >= \"3.12\""},
 ]
 
 [package.extras]
@@ -1293,13 +1293,13 @@ rich = "*"
 
 [[package]]
 name = "keras-nlp"
-version = "0.8.2"
+version = "0.11.1"
 description = "Industry-strength Natural Language Processing extensions for Keras."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "keras-nlp-0.8.2.tar.gz", hash = "sha256:fced2a8871ca3597891af6982434a5bf4ae4703befca548f1b383bb655c59b48"},
-    {file = "keras_nlp-0.8.2-py3-none-any.whl", hash = "sha256:5a4ece90837d9c5fa90cae36ee81962f8314706bb4a1dfc048a21fe2eeeb8caa"},
+    {file = "keras_nlp-0.11.1-py3-none-any.whl", hash = "sha256:d5b3e91cb045dd1866cdd4f14e4e73200f1dc88296999d16d1a06022b8740632"},
+    {file = "keras_nlp-0.11.1.tar.gz", hash = "sha256:baec012845b39896e8fbcb6a37a0888a39c77f8bc7ba8ea8f9d5a051252461b3"},
 ]
 
 [package.dependencies]
@@ -1809,9 +1809,9 @@ files = [
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
-    {version = ">=1.23.3", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
     {version = ">=1.21.2", markers = "python_version >= \"3.10\" and python_version < \"3.11\""},
+    {version = ">=1.23.3", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 
 [package.extras]
@@ -2052,9 +2052,9 @@ files = [
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.26.0,<2", markers = "python_version >= \"3.12\""},
-    {version = ">=1.23.2,<2", markers = "python_version == \"3.11\""},
     {version = ">=1.22.4,<2", markers = "python_version < \"3.11\""},
+    {version = ">=1.23.2,<2", markers = "python_version == \"3.11\""},
+    {version = ">=1.26.0,<2", markers = "python_version >= \"3.12\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -3029,8 +3029,8 @@ keras = ">=3.0.0"
 libclang = ">=13.0.0"
 ml-dtypes = ">=0.3.1,<0.4.0"
 numpy = [
-    {version = ">=1.26.0,<2.0.0", markers = "python_version >= \"3.12\""},
     {version = ">=1.23.5,<2.0.0", markers = "python_version <= \"3.11\""},
+    {version = ">=1.26.0,<2.0.0", markers = "python_version >= \"3.12\""},
 ]
 opt-einsum = ">=2.3.2"
 packaging = "*"
@@ -3501,4 +3501,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a7f409e98de6d4549c7e5d8ae17b30e1fdf4f692db88d42c3c60961323ba9ee6"
+content-hash = "2406187e7f6d26dbceeeaa09f7f6d3ba31e10363d2591d1c68335255c2646915"
